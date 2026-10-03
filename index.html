@@ -31,8 +31,58 @@
       padding: 0 15px;
     }
 
-    .search-box {
+    .search-box,
+    .card {
       background: white;
       padding: 18px;
       border-radius: 12px;
+      margin-bottom: 15px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    input {
+      width: 100%;
+      padding: 13px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      width: 100%;
+      padding: 13px;
+      border: 0;
+      border-radius: 8px;
+      background: #111;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .price {
+      font-size: 30px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .muted {
+      color: #777;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  ValueScan
+</header>
+
+<div class="container">
+
+  <div class="search-box">
+    <input
+      id="code"
+      type="text"
+      placeholder
